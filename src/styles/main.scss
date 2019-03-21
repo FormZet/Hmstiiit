@@ -1,1 +1,17 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+.card-body{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.heroInput{
+	width: 200px;
+}
+
+.heroDesc{
+	width: 320px;
+}

@@ -10,10 +10,13 @@ export default class Navbar extends Component {
 			  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul className="navbar-nav mr-auto">
 			      <li className="nav-item active">
-			        <Link to={'/addHero'} className="nav-link">Add Hero <span className="sr-only">(current)</span></Link>
+			        <Link to={'/heroList'} className="nav-link">Heroes List<span className="sr-only">(current)</span></Link>
 			        </li>
 			      <li className="nav-item">
-			        <Link to={'/settings'} className="nav-link">Settings</Link>
+			        <Link to={'/modalPage'} className="nav-link">Modal-Page</Link>
+			      </li>
+			      <li className="nav-item">
+			        <Link to={'/addHero'} className="nav-link">Add Hero</Link>
 			      </li>
 			    </ul>
 			  </div>
